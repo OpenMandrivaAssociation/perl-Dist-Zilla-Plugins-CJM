@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugins-CJM-3.01.tar.gz: b48d7d2843290f418841b369e31b508b987f132f
 sources:
-  "Dist-Zilla-Plugins-CJM-3.01.tar.gz": b48d7d2843290f418841b369e31b508b987f132f
+  Dist-Zilla-Plugins-CJM-4.22.tar.gz: 414d089d28c60d7a84d1c00c487ac736f433744a

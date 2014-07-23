@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugins-CJM
-%define upstream_version 3.01
+%define upstream_version 4.22
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Allow a dist to have a custom Build.PL
 License:	GPL+ or Artistic
@@ -47,5 +47,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes META.yml LICENSE
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-
