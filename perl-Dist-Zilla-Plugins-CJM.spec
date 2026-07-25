@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugins-CJM
-%define upstream_version 3.01
+%define upstream_version 6.000
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Allow a dist to have a custom Build.PL
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/madsen/dist-zilla-plugins-cjm
+Source0:	https://cpan.metacpan.org/authors/id/C/CJ/CJM/Dist-Zilla-Plugins-CJM-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
