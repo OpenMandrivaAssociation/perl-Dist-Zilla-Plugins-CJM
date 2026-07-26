@@ -1,15 +1,13 @@
 %define upstream_name    Dist-Zilla-Plugins-CJM
-%define upstream_version 6.000
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	6.000
+Release:	2
 
 Summary:	Allow a dist to have a custom Build.PL
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/madsen/dist-zilla-plugins-cjm
-Source0:	https://cpan.metacpan.org/authors/id/C/CJ/CJM/Dist-Zilla-Plugins-CJM-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CJ/CJM/Dist-Zilla-Plugins-CJM-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ Plugins implementing ModuleInfo may call their own 'get_module_info' method
 to construct a the Module::Build::ModuleInfo manpage object.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
